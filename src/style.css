@@ -1,5 +1,5 @@
 :root {
-  --almost-black: #151515;
+  --black: #151515;
   --white: #ffffff;
   --gold: #d5966c;
 }
@@ -12,7 +12,7 @@
                        ".... image image article";
   grid-template-columns: 28.125rem 16.875rem 16.875rem 17.8125rem;
   grid-template-rows: 11.8125rem 18.5rem 19.625rem;
-  background-color: var(--almost-black);
+  background-color: var(--black);
 }
 
 .main__gallery__content {
@@ -56,7 +56,7 @@
   height: 100%;
   width: 12.75rem;
   cursor: pointer;
-  background-color: var(--almost-black);
+  background-color: var(--black);
   color: var(--white);
   border: none;
 }
@@ -133,7 +133,7 @@
   grid-area: article--2;
   width: 27.8125rem;
   height: 23.5625rem;
-  background-color: var(--almost-black);
+  background-color: var(--black);
 }
 
 .second__gallery__second__article--title {
@@ -159,7 +159,7 @@
 
 .footer {
   height: 15.25rem;
-  background-color: var(--almost-black);
+  background-color: var(--black);
 }
 
 .footer__content {
@@ -303,7 +303,7 @@
     grid-area: article--2;
     width: 17.5rem;
     height: 24.75rem;
-    background-color: var(--almost-black);
+    background-color: var(--black);
   }
   .second__gallery__second__article--title {
     font-family: "Big Shoulders Display";
@@ -444,7 +444,7 @@
     grid-area: article--2;
     height: 100%;
     width: 100%;
-    background-color: var(--almost-black);
+    background-color: var(--black);
   }
   .second__gallery__second__article--title {
     font-family: "Big Shoulders Display";
