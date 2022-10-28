@@ -59,6 +59,7 @@
   background-color: var(--black);
   color: var(--white);
   border: none;
+  position: relative;
 }
 
 .main__gallery__button {
@@ -73,7 +74,8 @@
 .main__gallery__button--image {
   width: 8px;
   height: 24px;
-  margin-left: 1.3rem;
+  margin-left: 4.9rem;
+  position: absolute;
 }
 
 .second__gallery {
