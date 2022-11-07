@@ -1,0 +1,85 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github user search</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="location.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="location">
+      <picture class="location__map">
+        <source
+          class="location__map--img"
+          media="(max-width: 798px)"
+          srcset="./images/mobile/image-map.png"
+        />
+        <source
+          class="location__map--img"
+          media="(max-width: 820px)"
+          srcset="./images/tablet/image-map.png"
+        />
+        <img
+          class="location__map--img"
+          src="./images/desktop/image-map.png"
+          alt=""
+        />
+      </picture>
+      <div class="location__button">
+        <button onclick="window.location='index.html';" class="button">
+          Back to Home
+          <img
+            class="location__button--image"
+            src="./images/icon-arrow-left.svg"
+            alt=""
+          />
+        </button>
+      </div>
+    </div>
+    <div class="location__address">
+      <h1 class="location__address--title">OUR LOCATION</h1>
+
+      <div class="location__address__description__city">
+        <h2 class="location__address__description__city--title">
+          99 King Street
+        </h2>
+        <p class="location__address__description__city--info">Newport</p>
+        <p class="location__address__description__city--info">RI 02840</p>
+        <p class="location__address__description__city--info">
+          United States of America
+        </p>
+      </div>
+      <p class="location__address__description--info">
+        Our newly opened gallery is located near the Edward King House on 99
+        King Street, the Modern Art Gallery is free to all visitors and open
+        seven days a week from 8am to 9pm.
+      </p>
+    </div>
+    <footer class="footer">
+      <div class="footer__content">
+        <h2 class="footer__content__info--title">MODERN <br />ART GALLERY</h2>
+        <p class="footer__content__info--text">
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+        <ul class="footer__content__institutional">
+          <li class="footer__content__institutional--facebook">
+            <img src="./images/icon-facebook.svg" alt="" />
+          </li>
+          <li class="footer__content__institutional--instagram">
+            <img src="./images/icon-instagram.svg" alt="" />
+          </li>
+          <li class="footer__content__institutional--twitter">
+            <img src="./images/icon-twitter.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
